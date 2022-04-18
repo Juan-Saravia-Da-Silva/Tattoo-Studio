@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Beau Rivage', cursive;
+}
+/*HEADER*/
+.logo{
+    color: white;
+    font-size: 3em;
+}
+.nav-link{
+    background-color: #212529;
+    color: #212529;
+}
+.offcanvas-title{
+    font-size: 1em;
+}
+.offcanvas-body{
+    background-color: #212529;
+    font-size: 2em;
+}
+.offcanvas-header{
+    background-color: #212529;
+    color: white;
+    font-size: 2em;
+}
+.fondo{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+/*HEADER*/
+
+/*MAIN*/
+section h2{
+    font-family: 'Ultra', serif;
+}
+section h5{
+    font-family: 'Karma', serif;
+    color: darkred;
+}
+section p{
+    font-family: 'Saira', sans-serif;
+}
+.section{
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.text{
+    width: 60%;
+    height: 100vh;
+}
+.ink{
+    margin-left: 60px;
+    max-width: 100%;
+}
+.img{
+    max-width: 50%;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+/*SECTION2*/
+.articulo{
+    align-items: center;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 100%;
+    background-color: #212529;
+    background-image: url(../media/studio.jpg);
+    background-size: cover;
+    font-family: 'Ultra', serif;
+    color: white;
+    font-size: 3em;
+    margin-top: none;
+}
+
+/*SIDEBAR*/
+
+.sidebar{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.sidebar h2{
+    font-family: 'Ultra', serif;;
+}
+.sidebar p{
+    font-family: 'Saira', sans-serif;
+}
