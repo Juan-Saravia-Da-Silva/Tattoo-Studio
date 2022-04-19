@@ -1,0 +1,105 @@
+$color_1: white;
+$color_2: #212529;
+$color_3: darkred;
+$font-family_1: 'Beau Rivage', cursive;
+$font-family_2: 'Ultra', serif;
+$font-family_3: 'Karma', serif;
+$font-family_4: 'Saira', sans-serif;
+$background-color_1: #212529;
+
+/*HEADER*/
+/*HEADER*/
+/*MAIN*/
+/*SECTION2*/
+/*SIDEBAR*/
+/*CARTAS*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+.logo {
+	color: $color_1;
+	font-size: 3em;
+}
+.nav-link {
+	background-color: $background-color_1;
+	color: $color_2;
+}
+.offcanvas-title {
+	font-size: 1em;
+}
+.offcanvas-body {
+	background-color: $background-color_1;
+	font-size: 2em;
+}
+.offcanvas-header {
+	background-color: $background-color_1;
+	color: $color_1;
+	font-size: 2em;
+}
+.fondo {
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+section {
+	h2 {
+		font-family: $font-family_2;
+	}
+	h5 {
+		font-family: $font-family_3;
+		color: $color_3;
+	}
+	p {
+		font-family: $font-family_4;
+	}
+}
+.section {
+	height: 100vh;
+	margin-top: 50px;
+	margin-left: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	overflow: hidden;
+}
+.text {
+	width: 60%;
+	height: 100vh;
+}
+.ink {
+	margin-left: 60px;
+	max-width: 100%;
+}
+.img {
+	max-width: 50%;
+}
+.articulo {
+	align-items: center;
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	width: 100%;
+	background-color: $background-color_1;
+	background-image: url(../media/studio.jpg);
+	background-size: cover;
+	font-family: $font-family_2;
+	color: $color_1;
+	font-size: 3em;
+	margin-top: none;
+}
+.sidebar {
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	h2 {
+		font-family: $font-family_2;
+	}
+	p {
+		font-family: $font-family_4;
+	}
+}
